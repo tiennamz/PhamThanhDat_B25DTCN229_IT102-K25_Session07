@@ -5,9 +5,10 @@ int main(){
 	int so_dao_nguoc=0;
 	int i;
 	int so_ban_dau;
-	so_ban_dau=n;
+
 	printf("Nhap so nguyen n : ");
-	scanf("%d",&n);
+	scanf("%d",&n);	
+	so_ban_dau=n;
 	while(n!=0){
 		i=n%10;
 		so_dao_nguoc=so_dao_nguoc*10+i;
@@ -19,5 +20,6 @@ int main(){
 	else{
 		printf("Khong phai la so doi xung");
 	}
-	printf("%d",so_ban_dau);
+
 }
+
